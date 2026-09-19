@@ -1,4 +1,4 @@
-# JumpAndStart
+# Jump And Start
 ### A Platformer Game Made with Godot!!
 ## Screenshots
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/e6994d3f-57f8-4433-9f18-fb49dd8ae67e" />
