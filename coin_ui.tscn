@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://c1r8f3dy66g48"]
+
+[ext_resource type="Script" uid="uid://cxf2qtyd3cxdb" path="res://scripts/coin_ui.gd" id="1_i8ha2"]
+[ext_resource type="Texture2D" uid="uid://da7ul1sgk4fp4" path="res://assets/tile_0151.png" id="2_kgjm3"]
+
+[node name="CoinUI" type="Control" unique_id=2083818621]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 70.0
+offset_bottom = 70.0
+scale = Vector2(2, 2)
+script = ExtResource("1_i8ha2")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1750882323]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_kgjm3")
+
+[node name="Label" type="Label" parent="." unique_id=338363596]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 4.0
+offset_right = 70.0
+offset_bottom = 38.0
+theme_override_font_sizes/font_size = 24
+text = "0"
+horizontal_alignment = 1

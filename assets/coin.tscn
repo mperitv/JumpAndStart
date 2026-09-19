@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dnujeaevl0d3k"]
+
+[ext_resource type="Texture2D" uid="uid://da7ul1sgk4fp4" path="res://assets/tile_0151.png" id="1_p8ui7"]
+[ext_resource type="Texture2D" uid="uid://cr04ya10ncltv" path="res://assets/tile_0152.png" id="2_74asc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xnvao"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_p8ui7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_74asc")
+}],
+"loop": 1,
+"name": &"Spin",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" unique_id=1234454799]
+sprite_frames = SubResource("SpriteFrames_xnvao")
+animation = &"Spin"
+autoplay = "Spin"
