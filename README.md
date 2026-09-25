@@ -1,5 +1,6 @@
 # Jump And Start
 ### A Platformer Game Made with Godot!!
+#### Collect Coins, Jump, Complete the parkour, reach the end!
 ## Screenshots
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/e6994d3f-57f8-4433-9f18-fb49dd8ae67e" />
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/0101da37-8b60-4f85-9d1b-6fdc0a65e802" />
